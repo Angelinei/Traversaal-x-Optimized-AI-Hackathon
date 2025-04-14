@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AgentPro
 
 AgentPro is a flexible framework for building AI agents with multiple specialized tools. This repository allows you to create powerful agents that can search the internet, generate code, analyze YouTube videos, create presentations, and more.
@@ -234,3 +235,7 @@ agentpro/
 ## License
 
 This project is licensed under the Apache 2.0 License - see the LICENSE file for more details.
+=======
+# content-audit-agent
+MVP for an autonomous content auditing AI agent
+>>>>>>> f3c36162ce27b169800f21b0d4e10f3b98bdbd84
