@@ -10,6 +10,29 @@
 
 **Strategy:** Design a pluggable agent that works with multiple data sources and can be extended to NLP tasks such as summarization, gap detection, or question generation.
 
+Setup Instructions
+
+**1. Clone the repository**
+
+git clone https://github.com/Angelinei/Traversaal-x-Optimized-AI-Hackathon.git
+cd Traversaal-x-Optimized-AI-Hackathon
+
+**2. Create a virtual environment**
+
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+
+**3. Install dependencies**
+
+pip install -r requirements.txt
+
+**4. Run the app**
+
+uvicorn app.main:app --reload
+
+The API will be available at : http://localhost:8000
+
+
 **Project Overview**
 
 The **Content Analysis Agent** is built for EdTech teams looking to:
@@ -19,13 +42,13 @@ The **Content Analysis Agent** is built for EdTech teams looking to:
 - **Integrate seamlessly** with Google Drive, Notion, LMS, etc. (OAuth-ready)
 - Work with **adaptive workflows** using a flexible agentic backend
 
-Built with :
+**Built with :**
 
 - **FastAPI** for high-performance backend
 - **Python** for core logic
 - Integrations with **LangChain**, **OAuth**, and frontends like **Lovable** or **Zapier**
 
-💡 **Bonus: Built with AgentPro by Traversaal**
+**Bonus: Built with AgentPro by Traversaal**
 
 This project integrates [AgentPro](https://github.com/traversaal-ai/AgentPro), Traversaal's open-source, production-grade framework for AI agents.
 
@@ -35,7 +58,7 @@ We used AgentPro to structure our content audit agent in modular, testable steps
 - **Context-aware chaining**
 - **FastAPI-compatible and scalable**
 
-📂 **File Structure Explained**
+**File Structure Explained**
 
 app/main.py: FastAPI entry point
 
@@ -52,3 +75,6 @@ tests/: Unit tests
 **Agentic Architecture**
 
 ![Agentic Architecture](agentic_diagram)
+
+**✨ Built with love by Angeline Poitout
+AI builder • Edtech Specialist since 2021 behind ThreadFlow**
