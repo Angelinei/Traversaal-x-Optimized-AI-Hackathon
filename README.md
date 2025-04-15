@@ -51,4 +51,4 @@ tests/: Unit tests
 
 **Agentic Architecture**
 
- ![Agentic Architecture](assets/architecture.png)
+![Agentic Architecture](agentic_diagram)
